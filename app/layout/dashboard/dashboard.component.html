@@ -1,7 +1,7 @@
 <h2 class="text-muted">Dashboard <small>Statistics Overview</small></h2>
 <div class="row">
 
-     <div class="col-md-12">
+     <div class="col-md-12" style="width:100%px">
      <app-notification></app-notification>
         <!-- <ngb-carousel>
             <ng-template ngbSlide *ngFor="let slider of sliders">
@@ -17,18 +17,22 @@
 
 </div>
 <hr>
+
 <div class="row">
     <div class="col-xl-3 col-lg-6">
-        <app-stat [bgClass]="'card-primary'" [icon]="'fa-comments'" [count]="26" [label]="'New Comments!'" ></app-stat>
+        <app-stat [bgClass]="'card-primary'" [icon]="'fa-square'" [count]="26" [label]="'Team A'" ></app-stat>
+       <!--  <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a> -->
     </div>
     <div class="col-xl-3 col-lg-6">
-        <app-stat [bgClass]="'card-info'" [icon]="'fa-tasks'" [count]="12" [label]="'New task!'" ></app-stat>
+        <app-stat [bgClass]="'card-info'" [icon]="'fa-circle'" [count]="12" [label]="'Team B'" ></app-stat>
     </div>
     <div class="col-xl-3 col-lg-6">
-        <app-stat [bgClass]="'card-success'" [icon]="'fa-shopping-cart'" [count]="124" [label]="'New Orders!'" ></app-stat>
+        <app-stat [bgClass]="'card-success'" [icon]="'fa-star'" [count]="124" [label]="'Team C'" ></app-stat>
     </div>
     <div class="col-xl-3 col-lg-6">
-        <app-stat [bgClass]="'card-danger'" [icon]="'fa-support'" [count]="13" [label]="'New Tickets!'"></app-stat>
+        <app-stat [bgClass]="'card-danger'" [icon]="'fa-support'" [count]="13" [label]="'All Teams'"></app-stat>
     </div>
 </div>
 <hr />
@@ -37,21 +41,13 @@
 <div class="row">
     <div class="col-lg-8">
     <div class="card card-default">
-    <div class="card-header">
-                <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
-            </div>
-            <!-- /.card-header -->
-            <app-timeline></app-timeline>
-            <!-- /.card-body -->
-        </div>
-        <!-- /.card -->
-    </div>
+
     <!-- /.col-lg-8 -->
     <div class="col-lg-4">
     <div class="card card-default">
-    <div class="card-header">
+ <!--    <div class="card-header">
     <i class="fa fa-bell fa-fw"></i> Notifications card
-            </div>
+            </div> -->
             <!-- /.card-header -->
             <!--<app-notification></app-notification>-->
             <!-- /.card-body -->

@@ -27,17 +27,11 @@ export class DashboardComponent implements OnInit {
         this.alerts.push({
             id: 1,
             type: 'success',
-            message: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates est animi quibusdam praesentium quam, et perspiciatis,
-                consectetur velit culpa molestias dignissimos
-                voluptatum veritatis quod aliquam! Rerum placeat necessitatibus, vitae dolorum`,
+            message: `You have 3 unread messages!`,
         }, {
             id: 2,
             type: 'warning',
-            message: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates est animi quibusdam praesentium quam, et perspiciatis,
-                consectetur velit culpa molestias dignissimos
-                voluptatum veritatis quod aliquam! Rerum placeat necessitatibus, vitae dolorum`,
+            message: `Reminder: Send public broadcast message about next week's meeting!`,
         });
     }
     ngOnInit() {}
